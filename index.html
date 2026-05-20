@@ -205,7 +205,7 @@
                 <h2><span class="icon">⬇</span> Download &amp; Install</h2>
                 <p>Choose your operating system. The installer handles everything — Node.js, OpenCode, Ollama, and the AI model.</p>
                 <div class="download-grid">
-                    <a href="setup.bat" class="download-btn win" download>
+                    <a href="install-opencode-windows.bat" class="download-btn win" download>
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 3L11 4.5V11.5H3V3ZM3 13.5H11V20.5L3 22V13.5ZM12 4.5L21 3V11.5H12V4.5ZM12 13.5H21V21L12 19.5V13.5Z" fill="#c9d1d9"/></svg>
                         Windows (.bat)
                         <span class="arrow">→</span>
@@ -222,7 +222,7 @@
                     </a>
                 </div>
                 <div class="os-note">
-                    <strong>Windows:</strong> download <code>setup.bat</code>, double-click it, wait for installer to finish.<br>
+                    <strong>Windows:</strong> download <code>install-opencode-windows.bat</code>, double-click it, wait for installer to finish.<br>
                     <strong>macOS / Linux:</strong> download <code>.sh</code>, open terminal, run <code>chmod +x setup-*.sh &amp;&amp; ./setup-*.sh</code>
                 </div>
             </div>
@@ -246,13 +246,18 @@
         <section>
             <div class="card" data-delay="150">
                 <h2><span class="icon">🔄</span> How to Open OpenCode Again</h2>
-                <p>After the first run, just type this in PowerShell or CMD from any folder:</p>
-                <p style="margin: 20px 0;"><code class="big">opencode</code></p>
-                <p>Point it at your project folder:</p>
-                <p style="margin-top: 12px;">
-                    <code>cd Desktop\my-project</code><br>
-                    <code>opencode</code>
-                </p>
+                <p>After the first setup, OpenCode is installed on your system. To launch it again anytime:</p>
+
+                <div style="background:rgba(13,17,23,0.5);border-radius:12px;padding:20px 24px;margin:16px 0;border:1px solid rgba(48,54,61,0.3);">
+                    <p style="color:#8b949e;font-size:0.85rem;margin-bottom:8px;">Open <strong style="color:#f0f6fc;">PowerShell</strong>, <strong style="color:#f0f6fc;">CMD</strong>, or any terminal and type:</p>
+                    <p style="font-family:'JetBrains Mono',monospace;font-size:1.3rem;color:#6bdf7f;">opencode</p>
+                </div>
+
+                <p style="margin-top:16px;">To work on a specific project, navigate to its folder first:</p>
+                <div style="background:rgba(13,17,23,0.5);border-radius:8px;padding:14px 18px;margin-top:10px;border:1px solid rgba(48,54,61,0.3);">
+                    <code style="display:block;font-size:0.9rem;margin-bottom:6px;"><span style="color:#6bdf7f;">PS&gt;</span> <span style="color:#f0f6fc;">cd Desktop\my-project</span></code>
+                    <code style="display:block;font-size:0.9rem;"><span style="color:#6bdf7f;">PS&gt;</span> <span style="color:#6bdf7f;">opencode</span></code>
+                </div>
             </div>
         </section>
 
