@@ -6,20 +6,6 @@ Created by **mystry112000** — One-click installer for OpenCode + Ollama (Windo
 
 ---
 
-## 📁 Downloads Folder
-
-| File | OS | What it does |
-|------|----|-------------|
-| `install-opencode-windows.bat` | Windows | Double-click to install Node.js, OpenCode, Ollama, and AI model automatically |
-| `setup-macos.sh` | macOS | Run in terminal to install OpenCode + Ollama via Homebrew |
-| `setup-linux.sh` | Linux | Run in terminal to install OpenCode + Ollama |
-
-Each script:
-1. Installs missing dependencies (Node.js, OpenCode, Ollama)
-2. Downloads the AI model (deepseek-coder:6.7b)
-3. Starts the Ollama server
-4. Launches OpenCode automatically
-
 ---
 
 ## What This Does
@@ -41,7 +27,7 @@ After setup, OpenCode is an AI assistant that lives in your terminal. You can as
 
 ## Windows
 
-Download **`downloads/install-opencode-windows.bat`** from [the website](https://mystry112000.github.io/opencode-oneclick/), double-click it, and everything installs automatically.
+Download **`install-opencode-windows.bat`** from [the website](https://mystry112000.github.io/opencode-oneclick/), double-click it, and everything installs automatically.
 
 ### How to use (Windows)
 
