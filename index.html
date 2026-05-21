@@ -228,6 +228,47 @@
             </div>
         </section>
 
+        <!-- ─── MANUAL SETUP (Guaranteed) ─── -->
+        <section>
+            <div class="card" data-delay="80" style="border-color:rgba(255,179,0,0.3);background:rgba(255,179,0,0.04);">
+                <h2><span class="icon">⚠️</span> If the auto installer doesn't work</h2>
+                <p>Windows can behave differently on every PC. If the .bat file fails, just follow these 4 steps manually — this <strong>always</strong> works:</p>
+
+                <div style="margin-top:16px;">
+                    <div style="display:flex;align-items:flex-start;gap:14px;padding:10px 0;border-bottom:1px solid rgba(48,54,61,0.3);">
+                        <span style="background:rgba(255,179,0,0.15);color:#ffb300;border-radius:50%;width:28px;height:28px;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;">1</span>
+                        <div>
+                            <strong style="color:#f0f6fc;">Install Node.js</strong>
+                            <p style="color:#8b949e;font-size:0.9rem;margin:2px 0 0;">Download from <a href="https://nodejs.org" style="color:#58a6ff;">nodejs.org</a> → install like any program</p>
+                        </div>
+                    </div>
+                    <div style="display:flex;align-items:flex-start;gap:14px;padding:10px 0;border-bottom:1px solid rgba(48,54,61,0.3);">
+                        <span style="background:rgba(255,179,0,0.15);color:#ffb300;border-radius:50%;width:28px;height:28px;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;">2</span>
+                        <div>
+                            <strong style="color:#f0f6fc;">Install OpenCode</strong>
+                            <p style="color:#8b949e;font-size:0.9rem;margin:2px 0 0;">Open PowerShell and paste: <code style="font-size:0.85rem;">npm install -g opencode-ai</code></p>
+                        </div>
+                    </div>
+                    <div style="display:flex;align-items:flex-start;gap:14px;padding:10px 0;border-bottom:1px solid rgba(48,54,61,0.3);">
+                        <span style="background:rgba(255,179,0,0.15);color:#ffb300;border-radius:50%;width:28px;height:28px;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;">3</span>
+                        <div>
+                            <strong style="color:#f0f6fc;">Install Ollama</strong>
+                            <p style="color:#8b949e;font-size:0.9rem;margin:2px 0 0;">Download from <a href="https://ollama.com/download/windows" style="color:#58a6ff;">ollama.com/download/windows</a> → install</p>
+                        </div>
+                    </div>
+                    <div style="display:flex;align-items:flex-start;gap:14px;padding:10px 0;">
+                        <span style="background:rgba(255,179,0,0.15);color:#ffb300;border-radius:50%;width:28px;height:28px;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;">4</span>
+                        <div>
+                            <strong style="color:#f0f6fc;">Download AI model &amp; launch</strong>
+                            <p style="color:#8b949e;font-size:0.9rem;margin:2px 0 0;">In PowerShell, run:<br>
+                            <code style="font-size:0.85rem;">ollama pull deepseek-coder:6.7b</code><br>
+                            <code style="font-size:0.85rem;">opencode</code></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- ─── AFTER INSTALL ─── -->
         <section>
             <div class="card" data-delay="100">
